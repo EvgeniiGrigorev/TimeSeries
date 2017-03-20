@@ -95,7 +95,7 @@ legend("topright", legend=c("Real Data","NeuralNet","TBATS", "ARIMA"),
        col=c("red","green", "magenta","blue"), lty=c(1,2,2,2), lwd=c(5,3,3,3))
 grid()
 
-# Функция сравнения ошибок
+# Функция сравнения прогноза с реальностью
 
 mape <- function(r, f){
   len <- length(r)
